@@ -11,17 +11,17 @@
 | Dendroscope | GUI | Newick | Picture | Visualization of trees with GUI | [Manual in main directory after installation](https://uni-tuebingen.de/fakultaeten/mathematisch-naturwissenschaftliche-fakultaet/fachbereiche/informatik/lehrstuehle/algorithms-in-bioinformatics/software/dendroscope/) |
 | ETE toolkit | Python | Newick, NEXUS | Picture | Tree manipulation, analysis and drawing | Python interface!!!! and excellent [MANUAL](http://etetoolkit.org/docs/latest/_downloads/ETE.pdf) |
 | FastTree | command-line | Fasta or interleaved Phylip sma | Newick | Approximately Maximum Likelihood Tree | [Web Page](http://www.microbesonline.org/fasttree/#Usage) |
-| ggtree | R | - | 7 | Annotating trees with data | [MANUAL](https://guangchuangyu.github.io/ggtree-book/chapter-ggtree.html) |
+| ggtree | R | Any trees parsed with treeio | Picture | Annotating trees with data | [MANUAL](https://guangchuangyu.github.io/ggtree-book/chapter-ggtree.html) |
 | GraPhlAn | Python | - | - | Circular Tree Builder | phylophlan uses it |
-| GTDB-Tk | command-line | - | 7 | 8 | 9 |
+| GTDB-Tk | command-line | Fasta | Fasta msa and Newick Tree | MSA + building Tree with pplacer to reference database GTDB | [EXAMPLE](https://ecogenomics.github.io/GTDBTk/examples/classify_wf.html) |
 | iTOL | online | Newick, Nexus, PhyloXML or Jplace Tree | Picture | Visualization Tool | - |
 | MrBayes | command-line, available as R package | NEXUS alignment | 7 | Bayesian Inference for Phylogeny, MCMC methods, Bootstrapping | [HOME PAGE](http://nbisweden.github.io/MrBayes/) |
-| msa | R | - | 7 | ClustalW, ClustalOmega, and MUSCLE MSA tool entirely in R, LATEX rendering | Beautiful DRAWINGS of MSA |
-| pplacer | command-line | - | 7 | 8 | 9 |
-| phylogram | R | - | 7 | Convertion of trees to *dendrogram* objects from *phylo* objects | [MANUAL](https://cran.r-project.org/web/packages/phylogram/vignettes/phylogram-vignette.html) |
-| phangorn | R | - | 7 | 8 | 9 |
-| phylotools | R | Fasta or PHYLIP msa | RAxML supermatrix | -1.2 | -1.7 |
-| phytools | R | - | 7 | 8 | [TUTORIAL](http://www.phytools.org/Cordoba2017/ex/15/Plotting-methods.html) |
+| msa | R | - | - | ClustalW, ClustalOmega, and MUSCLE MSA tool entirely in R, LATEX rendering | Beautiful DRAWINGS of MSA |
+| pplacer | command-line | Fasta files | Maps of sequences to Reference Database | Pplacer places query sequences on a fixed reference phylogenetic tree to maximize phylogenetic likelihood or posterior probability according to a reference alignment | [Tutorial](http://fhcrc.github.io/microbiome-demo/) |
+| phylogram | R | - | - | Convertion of trees to *dendrogram* objects from *phylo* objects | [MANUAL](https://cran.r-project.org/web/packages/phylogram/vignettes/phylogram-vignette.html) |
+| phangorn | R | - | - | - | - |
+| phylotools | R | Fasta or PHYLIP msa | RAxML supermatrix | - | - |
+| phytools | R | - | - | - | [TUTORIAL](http://www.phytools.org/Cordoba2017/ex/15/Plotting-methods.html) |
 | phyML | R | PHYLYP, NEXUS msa | Newick?? | 8 | Doesn't work for >4000 sequences, Various models of substitution  |
 | phylophlan | Python | Fasta's + Reference Database (need to be prepared) | msa, phylogeny | FastTree builds approximate maximum likelihood tree, then RAxML builds maximum likelihood tree based on it | Python interface!!! |
 | phylo-cgi converter | online | - | - | Fasta msa to Phylip msa | [Web Page](http://phylogeny.lirmm.fr/phylo_cgi/data_converter.cgi) |
