@@ -1,14 +1,23 @@
 # BIOINFORMATICS TOOLS OF ANY KIND FOR PHYLOGENY ANALYSIS, MULTIPLE SEQUENCE ALIGNMENTS, FILE CONVERTION, ETC.
 
+## First of all check this [REVIEW!!!!!!!!](https://cran.r-project.org/web/views/Phylogenetics.html)
+
+
 | Tool Name | Language | Input | Output | Actions | Comments |
 |:---|:---:|:---:|:---:|:---:|:---:|
-| ape | R | - | 7 | 8 | 9 |
-| phylogram | R | - | 7 | Operation with trees as dendrogram objects instead of phylo objects | 9 |
+| ape | R | tree | picture | Drawer of phylogenetic trees, Basic tool, other use it, *phylo* objects | [MANUAL](https://cran.r-project.org/web/packages/ape/vignettes/DrawingPhylogenies.pdf) |
+| RAxML | R | - | 7 | 8 | 9 |
+| ETE toolkit | R | - | 7 | 8 | 9 |
+| FastTree | R | - | 7 | 8 | 9 |
+| GTDB-Tk |  | - | 7 | 8 | 9 |
+| ClustalOmega |  | - | 7 | 8 | 9 |
+| ClustalW |  | - | 7 | 8 | 9 |
+| phylogram | R | - | 7 | Operation with trees as *dendrogram* objects instead of *phylo* objects | [MANUAL](https://cran.r-project.org/web/packages/phylogram/vignettes/phylogram-vignette.html) |
 | phangorn | R | - | 7 | 8 | 9 |
 | phylotools | R | Fasta or PHYLIP msa | RAxML supermatrix | -1.2 | -1.7 |
-| ggtree | R | - | 7 | Annotating trees with data | [Manual](https://guangchuangyu.github.io/ggtree-book/chapter-ggtree.html) |
-| treeio | R | almost any formats of phylogenetic trees and outputs of common services | Tree object for future work with ggtree | parsing trees | BEAST, RAxML, HyPhy, PAML, pplacer, RevBayes, FPA, PHYLODOG, phyloT, r8s, ... |
-| MrBayes | standalone, available in R | NEXUS alignment | 7 | Bayesian Inference for Phylogeny, MCMC methods | 9 |
+| ggtree | R | - | 7 | Annotating trees with data | [MANUAL](https://guangchuangyu.github.io/ggtree-book/chapter-ggtree.html) |
+| treeio | R | almost any formats of phylogenetic trees and outputs of common services | Tree object for future work with ggtree | parsing trees | BEAST, RAxML, HyPhy, PAML, pplacer, RevBayes, FPA, PHYLODOG, phyloT, r8s, ...[MANUAL](https://guangchuangyu.github.io/ggtree-book/chapter-treeio.html) |
+| MrBayes | standalone, available as R package | NEXUS alignment | 7 | Bayesian Inference for Phylogeny, MCMC methods, Bootstrapping | [HOME PAGE](http://nbisweden.github.io/MrBayes/) |
 | msa | R | - | 7 | ClustalW, ClustalOmega, and MUSCLE MSA tool entirely in R, LATEX rendering | Beautiful DRAWINGS of MSA |
 | GraPhlAn | Python | - | - | Circular Tree Builder | phylophlan uses it |
 | phytools | R | - | 7 | 8 | 9 |
