@@ -1,6 +1,9 @@
 # BIOINFORMATICS TOOLS OF ANY KIND FOR PHYLOGENY ANALYSIS, MULTIPLE SEQUENCE ALIGNMENTS, FILE CONVERTION, ETC.
 
-| Tool Name   | Language | Input | Output | Comments |  | 6 | 7 |
-|:---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| pH  | 5 | 6 | 7 | 8 | 9 | 10 | >10 |
-| charge | -0.3 | -0.5 | -1.0 | -1.2 | -1.7 | -1.9 | -2.0 |
+| Tool Name | Language | Input | Output | Actions | Comments |
+|:---|:---:|:---:|:---:|:---:|:---:|
+| ape | R | - | 7 | 8 | 9 |
+| phylogram | R | - | 7 | Operation with trees as dendrogram objects | 9 |
+| phangorn | R | - | 7 | 8 | 9 |
+| phylotools | R | Fasta or PHYLIP msa | RAxML supermatrix | -1.2 | -1.7 |
+| phytools  | R | - | 7 | 8 | 9 |
