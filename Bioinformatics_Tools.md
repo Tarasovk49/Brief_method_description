@@ -4,7 +4,7 @@
 ## First of all check this [REVIEW!!!!!!!!](https://cran.r-project.org/web/views/Phylogenetics.html)
 
 
-| Tool Name | Language/Interface | Input | Output | What does it do? | Comments |
+| Tool Name | Language/Interface | Input | Output | Brief Description | Comments |
 |:---|:---:|:---:|:---:|:---:|:---:|
 | ape | R | Tree | Picture | Drawer and analyzer of phylogenetic trees, Basic tool, other use it, *phylo* objects | [MANUAL](https://cran.r-project.org/web/packages/ape/vignettes/DrawingPhylogenies.pdf) |
 | ClustalOmega | command-line | Fasta files | msa | UPGMA with HMM | Fast MSA tool for huge number of sequences and/or large sequences |
@@ -21,6 +21,7 @@
 | phylogram | R | - | - | Convertion of trees to *dendrogram* objects from *phylo* objects | [MANUAL](https://cran.r-project.org/web/packages/phylogram/vignettes/phylogram-vignette.html) |
 | phangorn | R | - | - | - | - |
 | CheckM | R | - | - | - | - |
+| MitoBench | Java | - | - | MitoBench is a tool aimed at helping researchers to organize, visualize and maintain their mitochondrial datasets | - |
 | AMBER | R | - | - | - | - |
 | HMMER | R | - | - | - | - |
 | prodigal | R | - | - | - | - |
