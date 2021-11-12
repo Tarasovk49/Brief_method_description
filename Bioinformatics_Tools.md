@@ -25,16 +25,8 @@
 | pplacer | command-line | Fasta files | Maps of sequences to Reference Database | Pplacer places query sequences on a fixed reference phylogenetic tree to maximize phylogenetic likelihood or posterior probability according to a reference alignment | [Tutorial](http://fhcrc.github.io/microbiome-demo/) |
 | phylogram | R | - | - | Convertion of trees to *dendrogram* objects from *phylo* objects | [MANUAL](https://cran.r-project.org/web/packages/phylogram/vignettes/phylogram-vignette.html) |
 | phangorn | R | NEXUS, Phylip, Fasta msa | Newick | phangorn is a package for phylogenetic reconstruction and analysis in the R language, UPGMA, Maximum Parsimony, Maximum Likelihood, also Bootstrapping | [Tutorial](https://cran.r-project.org/web/packages/phangorn/vignettes/Trees.html#distance-based-methods), [some example](https://cran.r-project.org/web/packages/phangorn/vignettes/IntertwiningTreesAndNetworks.html) |
-
-
-
 | AMBER | R | - | - | - | - |
 | HMMER | R | - | - | - | - |
-
-
-
-
-
 | phylotools | R | Fasta or PHYLIP MSA | **RAxML** supermatrix | - | - |
 | phytools | R | - | - | - | [TUTORIAL](http://www.phytools.org/Cordoba2017/ex/15/Plotting-methods.html) |
 | phyML | R | PHYLYP, NEXUS msa | Newick?? | Maximum Likelihood | Doesn't work for >4000 sequences, Various models of substitution |
