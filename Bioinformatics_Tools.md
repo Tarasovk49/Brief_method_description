@@ -25,7 +25,7 @@
 | MitoBench | Java | - | - | MitoBench is a tool aimed at helping researchers to organize, visualize and maintain their mitochondrial datasets | - |
 | AMBER | R | - | - | - | - |
 | HMMER | R | - | - | - | - |
-| FigTree | GUI(Java) | - | - | FigTree is designed as a graphical viewer of phylogenetic trees and as a program for producing publication-ready figures. As with most of my programs, it was written for my own needs so may not be as polished and feature-complete as a commercial program. In particular it is designed to display summarized and annotated trees produced by BEAST | [Web-Site](http://tree.bio.ed.ac.uk/software/figtree/) |
+| FigTree | GUI(Java) | - | - | FigTree is designed as a graphical viewer of phylogenetic trees and as a program for producing publication-ready figures. As with most of my programs, it was written for my own needs so may not be as polished and feature-complete as a commercial program. In particular it is designed to display summarized and annotated trees produced by **BEAST** | [Web-Site](http://tree.bio.ed.ac.uk/software/figtree/) |
 | prodigal | R | - | - | - | - |
 | Treemmer | Python | - | - | - | [GitHub](https://github.com/fmenardo/Treemmer) |
 | phylotools | R | Fasta or PHYLIP MSA | **RAxML** supermatrix | - | - |
