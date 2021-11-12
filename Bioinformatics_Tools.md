@@ -21,9 +21,11 @@
 | phylogram | R | - | - | Convertion of trees to *dendrogram* objects from *phylo* objects | [MANUAL](https://cran.r-project.org/web/packages/phylogram/vignettes/phylogram-vignette.html) |
 | phangorn | R | - | - | - | - |
 | CheckM | R | - | - | - | - |
+| IQ-Tree | command-line, online | Fasta, NEXUS, ClustalW, Phylip msa | Newick | Maximum likelihood phylogeny inference, assessing bootstrap supports, can be paralleled | [Tutorial+Manual](http://www.iqtree.org/doc/iqtree-doc.pdf) |
 | MitoBench | Java | - | - | MitoBench is a tool aimed at helping researchers to organize, visualize and maintain their mitochondrial datasets | - |
 | AMBER | R | - | - | - | - |
 | HMMER | R | - | - | - | - |
+| FigTree | GUI(Java) | - | - | FigTree is designed as a graphical viewer of phylogenetic trees and as a program for producing publication-ready figures. As with most of my programs, it was written for my own needs so may not be as polished and feature-complete as a commercial program. In particular it is designed to display summarized and annotated trees produced by BEAST | [Web-Site](http://tree.bio.ed.ac.uk/software/figtree/) |
 | prodigal | R | - | - | - | - |
 | phylotools | R | Fasta or PHYLIP msa | **RAxML** supermatrix | - | - |
 | phytools | R | - | - | - | [TUTORIAL](http://www.phytools.org/Cordoba2017/ex/15/Plotting-methods.html) |
