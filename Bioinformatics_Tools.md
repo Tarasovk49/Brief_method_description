@@ -8,30 +8,40 @@
 |:---|:---:|:---:|:---:|:---:|:---:|
 | ape | R | Tree | Picture | Drawer and analyzer of phylogenetic trees, Basic tool, other use it, *phylo* objects | [MANUAL](https://cran.r-project.org/web/packages/ape/vignettes/DrawingPhylogenies.pdf) |
 | ClustalOmega | command-line | Fasta files | msa | UPGMA with HMM | Fast MSA tool for huge number of sequences and/or large sequences |
+| CheckM | command-line | Directory with genome bins in Fasta | different quality plots | CheckM provides a set of tools for assessing the quality of genomes recovered from isolates, single cells, or metagenomes. It provides robust estimates of genome completeness and contamination by using collocated sets of genes that are ubiquitous and single-copy within a phylogenetic lineage. | Available through [KBase](https://www.kbase.us/), **HMMER**, **prodigal**, **pplacer** - dependent, [All information lurks here: GitHub wiki](https://github.com/Ecogenomics/CheckM/wiki) |
 | Dendroscope | GUI | Newick | Picture | Visualization of trees with GUI | [Manual in main directory after installation](https://uni-tuebingen.de/fakultaeten/mathematisch-naturwissenschaftliche-fakultaet/fachbereiche/informatik/lehrstuehle/algorithms-in-bioinformatics/software/dendroscope/) |
 | ETE toolkit | Python | Newick, NEXUS | Picture | Tree manipulation, analysis and drawing | Python interface!!!! and excellent [MANUAL](http://etetoolkit.org/docs/latest/_downloads/ETE.pdf) |
 | FastTree | command-line | Fasta or interleaved Phylip sma | Newick | Approximately Maximum Likelihood Tree | [Web Page](http://www.microbesonline.org/fasttree/#Usage) |
+| FigTree | GUI(Java) | - | - | FigTree is designed as a graphical viewer of phylogenetic trees and as a program for producing publication-ready figures. As with most of my programs, it was written for my own needs so may not be as polished and feature-complete as a commercial program. In particular it is designed to display summarized and annotated trees produced by **BEAST** | [Web-Site](http://tree.bio.ed.ac.uk/software/figtree/) |
 | ggtree | R | Any trees parsed with treeio | Picture | Annotating trees with data | [MANUAL](https://guangchuangyu.github.io/ggtree-book/chapter-ggtree.html) |
 | GraPhlAn | Python | - | - | Circular Tree Builder | **phylophlan** uses it |
 | GTDB-Tk | command-line | Fasta | Fasta msa and Newick Tree | MSA + building Tree with **pplacer** to reference database GTDB | [GIT](https://github.com/cerebis/GtdbTk), [EXAMPLE](https://ecogenomics.github.io/GTDBTk/examples/classify_wf.html) |
+| IQ-Tree | command-line, online | Fasta, NEXUS, ClustalW, Phylip msa | Newick | Maximum likelihood phylogeny inference, assessing bootstrap supports, can be paralleled | Exellent [Tutorial+Manual](http://www.iqtree.org/doc/iqtree-doc.pdf) |
 | iTOL | online | Newick, Nexus, PhyloXML or Jplace Tree | Picture | Visualization Tool | - |
+| Mesquite | GUI | - | - | Mesquite is modular, extendible software for evolutionary biology, designed to help biologists organize and analyze comparative data about organisms. Its emphasis is on phylogenetic analysis, but some of its modules concern population genetics, while others do non-phylogenetic multivariate analysis. | [Web-Site](http://www.mesquiteproject.org/) |
+| MitoBench | Java | - | - | MitoBench is a tool aimed at helping researchers to organize, visualize and maintain their mitochondrial datasets | - |
 | MrBayes | command-line, available as R package | NEXUS alignment | Cladograms and a huge pile of statistics | Bayesian Inference for Phylogeny, MCMC methods, Bootstrapping | **Tracer**, **AWTY**, **CODA**, **RWTY** read data produced by MrBayes, [HOME PAGE](http://nbisweden.github.io/MrBayes/) |
 | msa | R | Fasta files | MSA | **ClustalW**, **ClustalOmega**, and **MUSCLE** MSA tool entirely in R, LATEX rendering | Beautiful DRAWINGS of MSA, [Manual](https://bioconductor.riken.jp/packages/3.1/bioc/vignettes/msa/inst/doc/msa.pdf) |
 | pplacer | command-line | Fasta files | Maps of sequences to Reference Database | Pplacer places query sequences on a fixed reference phylogenetic tree to maximize phylogenetic likelihood or posterior probability according to a reference alignment | [Tutorial](http://fhcrc.github.io/microbiome-demo/) |
 | phylogram | R | - | - | Convertion of trees to *dendrogram* objects from *phylo* objects | [MANUAL](https://cran.r-project.org/web/packages/phylogram/vignettes/phylogram-vignette.html) |
 | phangorn | R | NEXUS, Phylip, Fasta msa | Newick | phangorn is a package for phylogenetic reconstruction and analysis in the R language, UPGMA, Maximum Parsimony, Maximum Likelihood, also Bootstrapping | [Tutorial](https://cran.r-project.org/web/packages/phangorn/vignettes/Trees.html#distance-based-methods), [some example](https://cran.r-project.org/web/packages/phangorn/vignettes/IntertwiningTreesAndNetworks.html) |
-| CheckM | command-line | Directory with genome bins in Fasta | different quality plots | CheckM provides a set of tools for assessing the quality of genomes recovered from isolates, single cells, or metagenomes. It provides robust estimates of genome completeness and contamination by using collocated sets of genes that are ubiquitous and single-copy within a phylogenetic lineage. | Available through [KBase](https://www.kbase.us/), **HMMER**, **prodigal**, **pplacer** - dependent, [All information lurks here: GitHub wiki](https://github.com/Ecogenomics/CheckM/wiki) |
-| IQ-Tree | command-line, online | Fasta, NEXUS, ClustalW, Phylip msa | Newick | Maximum likelihood phylogeny inference, assessing bootstrap supports, can be paralleled | Exellent [Tutorial+Manual](http://www.iqtree.org/doc/iqtree-doc.pdf) |
-| MitoBench | Java | - | - | MitoBench is a tool aimed at helping researchers to organize, visualize and maintain their mitochondrial datasets | - |
+
+
+
 | AMBER | R | - | - | - | - |
 | HMMER | R | - | - | - | - |
-| FigTree | GUI(Java) | - | - | FigTree is designed as a graphical viewer of phylogenetic trees and as a program for producing publication-ready figures. As with most of my programs, it was written for my own needs so may not be as polished and feature-complete as a commercial program. In particular it is designed to display summarized and annotated trees produced by **BEAST** | [Web-Site](http://tree.bio.ed.ac.uk/software/figtree/) |
-| prodigal | R | - | - | - | - |
-| Treemmer | Python | - | - | - | [GitHub](https://github.com/fmenardo/Treemmer) |
+
+
+
+
+
 | phylotools | R | Fasta or PHYLIP MSA | **RAxML** supermatrix | - | - |
 | phytools | R | - | - | - | [TUTORIAL](http://www.phytools.org/Cordoba2017/ex/15/Plotting-methods.html) |
 | phyML | R | PHYLYP, NEXUS msa | Newick?? | Maximum Likelihood | Doesn't work for >4000 sequences, Various models of substitution |
 | phylophlan | Python | Fasta's + Reference Database (need to be prepared) | msa, phylogeny | **FastTree** is used to build approximate maximum likelihood tree, then **RAxML** is used to build maximum likelihood tree based on it | Python interface!!! |
 | phylo-cgi converter | online | - | - | Fasta msa to Phylip msa | [Web Page](http://phylogeny.lirmm.fr/phylo_cgi/data_converter.cgi) |
+| prodigal | command-line | Fasta MAGs, contigs, genomes | gene positions with meta information | protein-coding GENE PREDICTION software tool for bacterial and archaeal genomes | [Git-Hub](https://github.com/hyattpd/Prodigal) |
 | RAxML | command-line | Phylip (relaxed) or Fasta msa, Newick for trees | Trees with bootstrap values, Starting Tree, Final tree | Sequential and parallel Maximum Likelihood based inference of large phylogenetic trees | [Step-by-step Tutorial](https://cme.h-its.org/exelixis/web/software/raxml/hands_on.html), [Manual](https://cme.h-its.org/exelixis/resource/download/NewManual.pdf)|
 | treeio | R | almost any formats of phylogenetic trees and outputs of common services | Tree object to process with **ggtree** | parsing trees | Services whose output can be parsed: BEAST, RAxML, HyPhy, PAML, pplacer, RevBayes, FPA, PHYLODOG, phyloT, r8s, ...[MANUAL](https://guangchuangyu.github.io/ggtree-book/chapter-treeio.html) |
+| Treemmer | Python | - | - | - | [GitHub](https://github.com/fmenardo/Treemmer) |
+| TreeView | GUI | Newick | Picture | Tree visualization | Some software from the dawn of bioinformatics |
