@@ -20,6 +20,8 @@
 | pplacer | command-line | Fasta files | Maps of sequences to Reference Database | Pplacer places query sequences on a fixed reference phylogenetic tree to maximize phylogenetic likelihood or posterior probability according to a reference alignment | [Tutorial](http://fhcrc.github.io/microbiome-demo/) |
 | phylogram | R | - | - | Convertion of trees to *dendrogram* objects from *phylo* objects | [MANUAL](https://cran.r-project.org/web/packages/phylogram/vignettes/phylogram-vignette.html) |
 | phangorn | R | - | - | - | - |
+| CheckM | R | - | - | - | - |
+| AMBER | R | - | - | - | - |
 | HMMER | R | - | - | - | - |
 | prodigal | R | - | - | - | - |
 | phylotools | R | Fasta or PHYLIP msa | **RAxML** supermatrix | - | - |
