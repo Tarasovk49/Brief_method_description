@@ -4,7 +4,7 @@
 ## First of all check this [REVIEW!!!!!!!!](https://cran.r-project.org/web/views/Phylogenetics.html)
 
 
-| Tool Name | Language/Interface | Input | Output | Brief Description | Comments |
+| Tool Name | Interface | Input | Output | Brief Description | Comments |
 |:---|:---:|:---:|:---:|:---:|:---:|
 | ape | R | Tree | Picture | Drawer and analyzer of phylogenetic trees, Basic tool, other use it, *phylo* objects | [MANUAL](https://cran.r-project.org/web/packages/ape/vignettes/DrawingPhylogenies.pdf) |
 | ClustalOmega | command-line | Fasta files | msa | UPGMA with HMM | Fast MSA tool for huge number of sequences and/or large sequences |
@@ -19,14 +19,15 @@
 | msa | R | - | - | **ClustalW**, **ClustalOmega**, and **MUSCLE** MSA tool entirely in R, LATEX rendering | Beautiful DRAWINGS of MSA |
 | pplacer | command-line | Fasta files | Maps of sequences to Reference Database | Pplacer places query sequences on a fixed reference phylogenetic tree to maximize phylogenetic likelihood or posterior probability according to a reference alignment | [Tutorial](http://fhcrc.github.io/microbiome-demo/) |
 | phylogram | R | - | - | Convertion of trees to *dendrogram* objects from *phylo* objects | [MANUAL](https://cran.r-project.org/web/packages/phylogram/vignettes/phylogram-vignette.html) |
-| phangorn | R | - | - | - | - |
-| CheckM | R | - | - | - | - |
+| phangorn | R | NEXUS, Phylip, Fasta msa | Newick | phangorn is a package for phylogenetic reconstruction and analysis in the R language, UPGMA, Maximum Parsimony, Maximum Likelihood, also Bootstrapping | [Tutorial](https://cran.r-project.org/web/packages/phangorn/vignettes/Trees.html#distance-based-methods), [some example](https://cran.r-project.org/web/packages/phangorn/vignettes/IntertwiningTreesAndNetworks.html) |
+| CheckM | command-line | Directory with genome bins in Fasta | different quality plots | CheckM provides a set of tools for assessing the quality of genomes recovered from isolates, single cells, or metagenomes. It provides robust estimates of genome completeness and contamination by using collocated sets of genes that are ubiquitous and single-copy within a phylogenetic lineage. | Available through [KBase](https://www.kbase.us/), **HMMER**, **prodigal**, **pplacer** - dependent, [All information lurks here: GitHub wiki](https://github.com/Ecogenomics/CheckM/wiki) |
 | IQ-Tree | command-line, online | Fasta, NEXUS, ClustalW, Phylip msa | Newick | Maximum likelihood phylogeny inference, assessing bootstrap supports, can be paralleled | Exellent [Tutorial+Manual](http://www.iqtree.org/doc/iqtree-doc.pdf) |
 | MitoBench | Java | - | - | MitoBench is a tool aimed at helping researchers to organize, visualize and maintain their mitochondrial datasets | - |
 | AMBER | R | - | - | - | - |
 | HMMER | R | - | - | - | - |
 | FigTree | GUI(Java) | - | - | FigTree is designed as a graphical viewer of phylogenetic trees and as a program for producing publication-ready figures. As with most of my programs, it was written for my own needs so may not be as polished and feature-complete as a commercial program. In particular it is designed to display summarized and annotated trees produced by BEAST | [Web-Site](http://tree.bio.ed.ac.uk/software/figtree/) |
 | prodigal | R | - | - | - | - |
+| Treemmer | Python | - | - | - | [GitHub](https://github.com/fmenardo/Treemmer) |
 | phylotools | R | Fasta or PHYLIP msa | **RAxML** supermatrix | - | - |
 | phytools | R | - | - | - | [TUTORIAL](http://www.phytools.org/Cordoba2017/ex/15/Plotting-methods.html) |
 | phyML | R | PHYLYP, NEXUS msa | Newick?? | Maximum Likelihood | Doesn't work for >4000 sequences, Various models of substitution |
