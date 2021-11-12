@@ -21,7 +21,7 @@
 | phylogram | R | - | - | Convertion of trees to *dendrogram* objects from *phylo* objects | [MANUAL](https://cran.r-project.org/web/packages/phylogram/vignettes/phylogram-vignette.html) |
 | phangorn | R | - | - | - | - |
 | CheckM | R | - | - | - | - |
-| IQ-Tree | command-line, online | Fasta, NEXUS, ClustalW, Phylip msa | Newick | Maximum likelihood phylogeny inference, assessing bootstrap supports, can be paralleled | [Tutorial+Manual](http://www.iqtree.org/doc/iqtree-doc.pdf) |
+| IQ-Tree | command-line, online | Fasta, NEXUS, ClustalW, Phylip msa | Newick | Maximum likelihood phylogeny inference, assessing bootstrap supports, can be paralleled | Exellent [Tutorial+Manual](http://www.iqtree.org/doc/iqtree-doc.pdf) |
 | MitoBench | Java | - | - | MitoBench is a tool aimed at helping researchers to organize, visualize and maintain their mitochondrial datasets | - |
 | AMBER | R | - | - | - | - |
 | HMMER | R | - | - | - | - |
