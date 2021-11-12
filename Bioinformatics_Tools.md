@@ -13,7 +13,7 @@
 | FastTree | command-line | Fasta or interleaved Phylip sma | Newick | Approximately Maximum Likelihood Tree | [Web Page](http://www.microbesonline.org/fasttree/#Usage) |
 | ggtree | R | Any trees parsed with treeio | Picture | Annotating trees with data | [MANUAL](https://guangchuangyu.github.io/ggtree-book/chapter-ggtree.html) |
 | GraPhlAn | Python | - | - | Circular Tree Builder | phylophlan uses it |
-| GTDB-Tk | command-line | Fasta | Fasta msa and Newick Tree | MSA + building Tree with pplacer to reference database GTDB | [EXAMPLE](https://ecogenomics.github.io/GTDBTk/examples/classify_wf.html) |
+| GTDB-Tk | command-line | Fasta | Fasta msa and Newick Tree | MSA + building Tree with pplacer to reference database GTDB | [GIT](https://github.com/cerebis/GtdbTk), [EXAMPLE](https://ecogenomics.github.io/GTDBTk/examples/classify_wf.html) |
 | iTOL | online | Newick, Nexus, PhyloXML or Jplace Tree | Picture | Visualization Tool | - |
 | MrBayes | command-line, available as R package | NEXUS alignment | 7 | Bayesian Inference for Phylogeny, MCMC methods, Bootstrapping | [HOME PAGE](http://nbisweden.github.io/MrBayes/) |
 | msa | R | - | - | ClustalW, ClustalOmega, and MUSCLE MSA tool entirely in R, LATEX rendering | Beautiful DRAWINGS of MSA |
