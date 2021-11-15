@@ -39,5 +39,5 @@
 | prodigal | command-line | Fasta MAGs, contigs, genomes | gene positions with meta information | protein-coding GENE PREDICTION software tool for bacterial and archaeal genomes | [Git-Hub](https://github.com/hyattpd/Prodigal) |
 | RAxML | command-line | Phylip (relaxed) or Fasta msa, Newick for trees | Trees with bootstrap values, Starting Tree, Final tree | Sequential and parallel Maximum Likelihood based inference of large phylogenetic trees | [Step-by-step Tutorial](https://cme.h-its.org/exelixis/web/software/raxml/hands_on.html), [Manual](https://cme.h-its.org/exelixis/resource/download/NewManual.pdf)|
 | treeio | R | almost any formats of phylogenetic trees and outputs of common services | Tree object to process with **ggtree** | parsing trees | Services whose output can be parsed: BEAST, RAxML, HyPhy, PAML, pplacer, RevBayes, FPA, PHYLODOG, phyloT, r8s, ...[MANUAL](https://guangchuangyu.github.io/ggtree-book/chapter-treeio.html) |
-| Treemmer | Python | - | - | - | [GitHub](https://github.com/fmenardo/Treemmer) |
+| Treemmer | Python | ete3.Tree | ete3.Tree | Trim large trees, different options of trimming, based on **ETE Toolkit** | [GitHub](https://github.com/fmenardo/Treemmer) |
 | TreeView | GUI | Newick | Picture | Tree visualization | Some software from the dawn of bioinformatics |
