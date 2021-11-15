@@ -14,7 +14,7 @@
 | ETE toolkit | Python | Newick, NEXUS | Picture | Tree manipulation, analysis and drawing | Python interface!!!! and excellent [MANUAL](http://etetoolkit.org/docs/latest/_downloads/ETE.pdf) |
 | FastTree | command-line | Fasta or interleaved Phylip sma | Newick | Approximately Maximum Likelihood Tree | [Web Page](http://www.microbesonline.org/fasttree/#Usage) |
 | FigTree | GUI(Java) | - | - | FigTree is designed as a graphical viewer of phylogenetic trees and as a program for producing publication-ready figures. As with most of my programs, it was written for my own needs so may not be as polished and feature-complete as a commercial program. In particular it is designed to display summarized and annotated trees produced by **BEAST** | [Web-Site](http://tree.bio.ed.ac.uk/software/figtree/) |
-| ggKbase| online | - | - | Annotating trees with data | [Web-Site](https://ggkbase.berkeley.edu/) |
+| ggKbase| online | - | - | Online Tool for different phylogeny, quality of bins assession analyses | [Web-Site](https://ggkbase.berkeley.edu/) |
 | ggtree | R | Any trees parsed with treeio | Picture | Annotating trees with data | [MANUAL](https://guangchuangyu.github.io/ggtree-book/chapter-ggtree.html) |
 | GraPhlAn | Python | - | - | Circular Tree Builder | **phylophlan** uses it |
 | GTDB-Tk | command-line | Fasta | Fasta msa and Newick Tree | MSA + building Tree with **pplacer** to reference database GTDB | [GIT](https://github.com/cerebis/GtdbTk), [EXAMPLE](https://ecogenomics.github.io/GTDBTk/examples/classify_wf.html) |
