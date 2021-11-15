@@ -7,6 +7,7 @@
 | Tool Name | Interface | Input | Output | Brief Description | Comments |
 |:---|:---:|:---:|:---:|:---:|:---:|
 | ape | R | Tree | Picture | Drawer and analyzer of phylogenetic trees, Basic tool, other use it, *phylo* objects | [MANUAL](https://cran.r-project.org/web/packages/ape/vignettes/DrawingPhylogenies.pdf) |
+| ARB | GUI | - | - | The ARB software is a graphically oriented package comprising various tools for sequence database handling and data analysis. rRNA-based tool, compatible with **SILVA** | [Web-Site](http://www.arb-home.de/features.html) |
 | CIPRES | online, REST API | - | - | GRID resources for Phyloigeny Inference | [CIPRES Science Gateway](https://www.phylo.org/portal2/tools.action) |
 | ClustalOmega | command-line | Fasta files | msa | UPGMA with HMM | Fast MSA tool for huge number of sequences and/or large sequences |
 | CheckM | command-line | Directory with genome bins in Fasta | different quality plots | CheckM provides a set of tools for assessing the quality of genomes recovered from isolates, single cells, or metagenomes. It provides robust estimates of genome completeness and contamination by using collocated sets of genes that are ubiquitous and single-copy within a phylogenetic lineage. | Available through [KBase](https://www.kbase.us/), **HMMER**, **prodigal**, **pplacer** - dependent, [All information lurks here: GitHub wiki](https://github.com/Ecogenomics/CheckM/wiki) |
@@ -38,6 +39,7 @@
 | phylo-cgi converter | online | - | - | Fasta msa to Phylip msa | [Web Page](http://phylogeny.lirmm.fr/phylo_cgi/data_converter.cgi) |
 | prodigal | command-line | Fasta MAGs, contigs, genomes | gene positions with meta information | protein-coding GENE PREDICTION software tool for bacterial and archaeal genomes | [Git-Hub](https://github.com/hyattpd/Prodigal) |
 | RAxML | command-line | Phylip (relaxed) or Fasta msa, Newick for trees | Trees with bootstrap values, Starting Tree, Final tree | Sequential and parallel Maximum Likelihood based inference of large phylogenetic trees | [Step-by-step Tutorial](https://cme.h-its.org/exelixis/web/software/raxml/hands_on.html), [Manual](https://cme.h-its.org/exelixis/resource/download/NewManual.pdf)|
+| SILVA | database | - | - | SILVA provides comprehensive, quality checked and regularly updated datasets of aligned small (16S/18S, SSU) and large subunit (23S/28S, LSU) ribosomal RNA (rRNA) sequences for all three domains of life (Bacteria, Archaea and Eukarya). | [Web-Site](https://www.arb-silva.de/) |
 | treeio | R | almost any formats of phylogenetic trees and outputs of common services | Tree object to process with **ggtree** | parsing trees | Services whose output can be parsed: BEAST, RAxML, HyPhy, PAML, pplacer, RevBayes, FPA, PHYLODOG, phyloT, r8s, ...[MANUAL](https://guangchuangyu.github.io/ggtree-book/chapter-treeio.html) |
 | Treemmer | Python | ete3.Tree | ete3.Tree | Trim large trees, different options of trimming, based on **ETE Toolkit** | [GitHub](https://github.com/fmenardo/Treemmer) |
 | TreeView | GUI | Newick | Picture | Tree visualization | Some software from the dawn of bioinformatics |
