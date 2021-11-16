@@ -1,7 +1,7 @@
 # BIOINFORMATICS TOOLS FOR ALL OCCASIONS: PHYLOGENY ANALYSIS, MULTIPLE SEQUENCE ALIGNMENTS, FILE CONVERTION, VISUALIZATION, ETC.
 
 
-## First of all check this [REVIEW!!!!!!!!](https://cran.r-project.org/web/views/Phylogenetics.html)
+## First of all check this [REVIEW!!!!!!!!](https://cran.r-project.org/web/views/Phylogenetics.html) and this [COLLECTION](https://molbiol-tools.ca/Phylogeny.htm)
 
 
 | Tool Name | Interface | Input | Output | Brief Description | Comments |
@@ -32,7 +32,9 @@
 | phylogram | R | - | - | Convertion of trees to *dendrogram* objects from *phylo* objects | [MANUAL](https://cran.r-project.org/web/packages/phylogram/vignettes/phylogram-vignette.html) |
 | phangorn | R | NEXUS, Phylip, Fasta msa | Newick | phangorn is a package for phylogenetic reconstruction and analysis in the R language, UPGMA, Maximum Parsimony, Maximum Likelihood, also Bootstrapping | [Tutorial](https://cran.r-project.org/web/packages/phangorn/vignettes/Trees.html#distance-based-methods), [some example](https://cran.r-project.org/web/packages/phangorn/vignettes/IntertwiningTreesAndNetworks.html) |
 | AMBER | R | - | - | - | - |
+| MUSCLE | R | - | - | - | - |
 | HMMER | R | - | - | - | - |
+https://www.ebi.ac.uk/seqdb/confluence/display/JDSAT
 | Pfam | database | - | - | The Pfam database is a large collection of protein families, each represented by multiple sequence alignments and hidden Markov models (HMMs) | [Web-Site](http://pfam.xfam.org/) |
 | phylotools | R | Fasta or PHYLIP MSA | **RAxML** supermatrix | - | - |
 | phytools | R | - | - | - | [TUTORIAL](http://www.phytools.org/Cordoba2017/ex/15/Plotting-methods.html) |
